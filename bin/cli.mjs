@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-import './install-skills.mjs';
+import "../install-skills.mjs";
+
