@@ -12,15 +12,10 @@
     "gen:index": "node generate-index-files.js",
     "test": "npm test -ws",
     "build": "mkdir -p dist && cp -r packages/skills dist",
-    "postinstall": "node install-skills.mjs",
-    "preinstall": "node ensure-package-json.js"
-  },
-  "bin": {
-    "ai-labs-claude-skills": "./bin/cli.mjs"
+    "postinstall": "node install-skills.mjs"
   },
   "files": [
     "dist",
-    "install-skills.mjs",
-    "bin"
+    "install-skills.mjs"
   ]
 }
