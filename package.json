@@ -1,7 +1,7 @@
 {
   "name": "ai-labs-claude-skills",
   "private": false,
-  "version": "1.0.7",
+  "version": "1.0.9",
   "workspaces": [
     "packages/skills/*"
   ],
@@ -10,7 +10,7 @@
     "gen:pkg": "node create-packages.js",
     "gen:index": "node generate-index-files.js",
     "test": "npm test -ws",
-    "build": "mkdir -p dist && cp -r packages/skills dist/skills",
+    "build": "mkdir -p dist && cp -r packages/skills dist",
     "postinstall": "node install-skills.mjs"
   },
   "files": [
