@@ -1,9 +1,13 @@
 # 🚀 ai-labs-claude-skills  
 
+<div align="center">
+
 [![npm version](https://img.shields.io/npm/v/ai-labs-claude-skills.svg?color=blue)](https://www.npmjs.com/package/ai-labs-claude-skills)
 [![npm downloads](https://img.shields.io/npm/dt/ai-labs-claude-skills.svg?color=brightgreen)](https://www.npmjs.com/package/ai-labs-claude-skills)
 [![license](https://img.shields.io/npm/l/ai-labs-claude-skills.svg)](https://github.com/ailabs-393/ai-labs-claude-skills/blob/main/LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-green)](https://nodejs.org)
+
+</div>
 
 > 🧠 A collection of reusable **"skills"** for Claude AI and developer tooling.  
 > Each skill is a focused, modular package that brings automation to your dev workflows — from SEO analysis to document parsing, CI/CD generation, Docker automation, and more.
@@ -78,4 +82,6 @@ Here’s how to add a new skill:
 5. Submit a pull request with clear details.
 
 ## License
-MIT
+- This project is licensed under the MIT License
+
+## HAPPY CODING :)
