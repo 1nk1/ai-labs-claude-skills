@@ -79,11 +79,11 @@ Here’s how to add a new skill:
    
 5. Run these commands to create index and package inside skills
     ``` bash
-    node generate-index.js
+    node generate-index-files.js
     ```
     and
    ```bash
-   node generate-packages.js
+   node create-packages.js
    ```
  so that it can actually become a scalable skill   
 
